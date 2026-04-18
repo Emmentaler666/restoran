@@ -1,0 +1,93 @@
+\<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pošaljite upit za rezervaciju stola u restoranu Žar.">
+    <meta name="author" content=" Kristijan Bobanovic">
+    <meta property="og:title" content="Žar | Rezervacije">
+    <meta property="og:description" content="Rezervirajte stol u restoranu Žar.">
+    <meta property="og:image" content="slike/rez.jpeg">
+    <meta property="og:type" content="website">
+    <title>Žar | Rezervacije</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Preskoči na sadržaj</a>
+
+    <header class="site-header">
+        <nav class="nav" aria-label="Glavna navigacija">
+            <a class="logo" href="index.html">Žar</a>
+            <input type="checkbox" id="menu-toggle" class="nav-toggle">
+            <label for="menu-toggle" class="nav-toggle-label">&#9776;</label>
+
+            <div class="nav-links">
+                <a href="index.html">Početna</a>
+                <a href="jelovnik.html">Jelovnik</a>
+                <a href="dostava.html">Dostava</a>
+                <a href="lokacija.html">Lokacija</a>
+                <a href="rezervacije.html" class="active">Rezervacije</a>
+                <a href="onama.html">O nama</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content" class="page-section">
+        <h1 class="page-title">Rezervacije</h1>
+        <p class="subtitle">Pošaljite upit za svoj stol.</p>
+
+        <form class="form" action="#" method="post">
+            <div class="form-group">
+                <label for="ime">Kristijan Bobanovic</label>
+                <input type="text" id="ime" name="ime" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefon">Telefon</label>
+                <input type="tel" id="telefon" name="telefon" required>
+            </div>
+
+            <div class="form-group">
+                <label for="datum">Datum</label>
+                <input type="date" id="datum" name="datum" required>
+            </div>
+
+            <div class="form-group">
+                <label for="vrijeme">Vrijeme</label>
+                <input type="time" id="vrijeme" name="vrijeme" required>
+            </div>
+
+            <div class="form-group">
+                <label for="osobe">Broj osoba</label>
+                <select id="osobe" name="osobe" required>
+                    <option value="">Odaberi broj osoba</option>
+                    <option value="1">1 osoba</option>
+                    <option value="2">2 osobe</option>
+                    <option value="3">3 osobe</option>
+                    <option value="4">4 osobe</option>
+                    <option value="5">5 osoba</option>
+                    <option value="6plus">6+ osoba</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="napomena">Napomena</label>
+                <textarea id="napomena" name="napomena" rows="4"></textarea>
+            </div>
+
+            <button class="button" type="submit">Pošalji rezervaciju</button>
+        </form>
+    </main>
+
+    <footer class="site-footer">
+        <p>© Žar</p>
+        <p><a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </footer>
+</body>
+</html>
