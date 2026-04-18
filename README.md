@@ -1,4 +1,6 @@
-# Restoran
+# Link
+    restoran-kb.netlify.app
+
 # Žar
 
 Žar je statička web stranica restorana izrađena za Projekt 1 iz kolegija Uvod u Web tehnologije. Web prikazuje osnovne informacije o restoranu, jelovnik, dostavu, lokaciju, rezervacije i kontakt.
