@@ -354,3 +354,126 @@ textarea {
         display: flex;
     }
 }
+
+#searchInput,
+#categoryFilter {
+    margin: 0.5rem;
+}
+
+#menuContainer {
+    margin-top: 2rem;
+}
+
+.card {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    transition: 0.3s ease;
+    border-color: var(--gold);
+}
+
+.category-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.category-card {
+    padding: 1rem 2rem;
+    background: #111;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+    color: #d4af37;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    background: #d4af37;
+    color: #111;
+}
+
+.category-card.active {
+    background: #d4af37;
+    color: #111;
+}
+
+.form-message {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.3s ease;
+}
+
+.form-message.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.form-message.success {
+    background: rgba(46, 204, 113, 0.15);
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.form-message.error {
+    background: rgba(231, 76, 60, 0.15);
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.status-message {
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1rem 1.3rem;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.status-message.loading {
+    background: rgba(212, 175, 55, 0.15);
+    border: 1px solid var(--gold);
+    color: var(--gold);
+}
+
+.status-message.error {
+    background: rgba(231, 76, 60, 0.15);
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
+
+.status-message.empty {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid #777;
+    color: var(--muted);
+}
+
+.menu-actions {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+#favoritesCount {
+    background: rgba(212, 175, 55, 0.15);
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.8rem 1.3rem;
+    border-radius: 999px;
+    font-weight: bold;
+}
+
+.favorite-btn.saved {
+    background: #2ecc71;
+    color: #000;
+}
