@@ -2,8 +2,8 @@
 
 ## Link
 
-https://kbprojekt1.netlify.app/
-
+[https://kbprojekt1.netlify.app/
+](https://resttorran.netlify.app/)
 ## Opis projekta
 
 Žar je web aplikacija restorana izrađena u HTML-u, CSS-u i JavaScriptu bez korištenja frameworka. Aplikacija omogućuje pregled jelovnika, pretragu i filtriranje jela, spremanje favorita te slanje rezervacija bez ponovnog učitavanja stranice.
