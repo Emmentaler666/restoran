@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pogledajte jelovnik restorana Žar: pića, predjela, glavna jela i deserti.">
+    <meta name="author" content=" Kristijan Bobanovic">
+    <meta property="og:title" content="Žar | Jelovnik">
+    <meta property="og:description" content="Istražite ponudu restorana Žar.">
+    <meta property="og:image" content="slike/jelovnik.jpg">
+    <meta property="og:type" content="website">
+    <title>Žar | Jelovnik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Preskoči na sadržaj</a>
+
+    <header class="site-header">
+        <nav class="nav" aria-label="Glavna navigacija">
+            <a class="logo" href="index.html">Žar</a>
+            <input type="checkbox" id="menu-toggle" class="nav-toggle">
+            <label for="menu-toggle" class="nav-toggle-label">&#9776;</label>
+
+            <div class="nav-links">
+                <a href="index.html">Početna</a>
+                <a href="jelovnik.html" class="active">Jelovnik</a>
+                <a href="dostava.html">Dostava</a>
+                <a href="lokacija.html">Lokacija</a>
+                <a href="rezervacije.html">Rezervacije</a>
+                <a href="onama.html">O nama</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content" class="page-section">
+        <h1 class="page-title">Jelovnik</h1>
+        <p class="subtitle">Pažljivo birana ponuda za svaki ukus.</p>
+
+        <input id="searchInput" type="search" placeholder="Pretraži jela">
+
+        <select id="categoryFilter">
+            <option value="sve">Sve kategorije</option>
+        </select>
+
+        <p id="statusMessage"></p>
+        <div class="menu-actions">
+        <p id="favoritesCount">❤ Favoriti: 0</p>
+        </div>
+        <div id="categoryCards" class="category-cards"></div>
+
+        <div id="menuContainer" class="grid"></div>
+    </main>
+    <footer class="site-footer">
+        <p>© Žar</p>
+        <p><a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </footer>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

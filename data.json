@@ -1,0 +1,177 @@
+[
+  {
+    "naziv": "Bruschette",
+    "kategorija": "Predjela",
+    "opis": "Prepečeni kruh s rajčicom i bosiljkom",
+    "cijena": "4.50",
+    "slika": "slike/bruschette.jpg"
+
+  },
+  {
+    "naziv": "Cezar salata",
+    "kategorija": "Predjela",
+    "opis": "Salata, piletina, krutoni i dressing",
+    "cijena": "6.50",
+    "slika": "slike/cesar.jpg"
+
+  },
+  {
+    "naziv": "Juha od rajčice",
+    "kategorija": "Predjela",
+    "opis": "Domaća krem juha od rajčice",
+    "cijena": "5",
+    "slika": "slike/tomato.jpg"
+
+  },
+  {
+    "naziv": "Dalmatinska plata",
+    "kategorija": "Predjela",
+    "opis": "Prsut i sir",
+    "cijena": "18.00",
+    "slika": "slike/prsut.jpg"
+
+  },
+
+  {
+    "naziv": "Pizza Margherita",
+    "kategorija": "Glavna jela",
+    "opis": "Rajčica, mozzarella i bosiljak",
+    "cijena": "8.50",
+    "slika": "slike/margherita.jpg"
+  },
+  {
+    "naziv": "Pizza Capricciosa",
+    "kategorija": "Glavna jela",
+    "opis": "Šunka, gljive i sir",
+    "cijena": "9.50",
+    "slika": "slike/capri.jpg"
+  },
+  {
+    "naziv": "Ćevapi u lepinji",
+    "kategorija": "Glavna jela",
+    "opis": "Ćevapi, lepinja, luk i ajvar",
+    "cijena": "9.00",
+    "slika": "slike/cev.jpg"
+  },
+  {
+    "naziv": "Piletina s roštilja",
+    "kategorija": "Glavna jela",
+    "opis": "Pileći file s prilogom",
+    "cijena": "10.50",
+    "slika": "slike/pil.jpg"
+  },
+  {
+    "naziv": "Cheeseburger",
+    "kategorija": "Glavna jela",
+    "opis": "Juneće meso, sir, salata i umak",
+    "cijena": "11.00",
+    "slika": "slike/ham.jpg"
+  },
+  {
+    "naziv": "Rižoto s kozicama",
+    "kategorija": "Glavna jela",
+    "opis": "Kremasti rižoto s kozicama",
+    "cijena": "13.50",
+    "slika": "slike/riz.jpg"
+  },
+  {
+    "naziv": "Spaghetti Carbonara",
+    "kategorija": "Glavna jela",
+    "opis": "Klasicna Carbonara",
+    "cijena": "10.00",
+    "slika": "slike/cb.jpg"
+  },
+  {
+    "naziv": "Brancin na žaru",
+    "kategorija": "Glavna jela",
+    "opis": "File brancina s povrćem",
+    "cijena": "22",
+    "slika": "slike/ss.jpg"
+  },
+
+  {
+    "naziv": "Tiramisu",
+    "kategorija": "Deserti",
+    "opis": "Klasični talijanski desert",
+    "cijena": "4.00",
+    "slika": "slike/tt.jpg"
+  },
+  {
+    "naziv": "Palačinke",
+    "kategorija": "Deserti",
+    "opis": "Čokolada, marmelada ili nutella",
+    "cijena": "3.80",
+    "slika": "slike/pal.jpg"
+  },
+  {
+    "naziv": "Cheesecake",
+    "kategorija": "Deserti",
+    "opis": "Kolač od sira s preljevom",
+    "cijena": "4.50",
+    "slika": "slike/cs.jpg"
+  },
+  {
+    "naziv": "Čokoladni souffle",
+    "kategorija": "Deserti",
+    "opis": "Topli kolač s tekućom čokoladom",
+    "cijena": "5.00",
+    "slika": "slike/sf.jpg"
+  },
+
+  {
+    "naziv": "Coca-Cola",
+    "kategorija": "Pića",
+    "opis": "Gazirano piće 0.33 l",
+    "cijena": "2.50",
+    "slika": "slike/cc.jpg"
+  },
+  {
+    "naziv": "Fanta",
+    "kategorija": "Pića",
+    "opis": "Gazirano piće od naranče",
+    "cijena": "2.50",
+    "slika": "slike/fn.jpg"
+  },
+  {
+    "naziv": "Limunada",
+    "kategorija": "Pića",
+    "opis": "Svježe cijeđena limunada",
+    "cijena": "3.00",
+    "slika": "slike/lm.jpg"
+  },
+  {
+    "naziv": "Prirodni sok",
+    "kategorija": "Pića",
+    "opis": "Naranča ili jabuka",
+    "cijena": "3.50",
+    "slika": "slike/nr.jpg"
+  },
+  {
+    "naziv": "Espresso",
+    "kategorija": "Pića",
+    "opis": "Klasična kava",
+    "cijena": "1.60",
+    "slika": "slike/es.jpg"
+  },
+  {
+    "naziv": "Cappuccino",
+    "kategorija": "Pića",
+    "opis": "Kava s mlijekom i pjenom",
+    "cijena": "2.20",
+    "slika": "slike/ca.jpg"
+  },
+  {
+    "naziv": "Bijelo vino",
+    "kategorija": "Pića",
+    "opis": "Čaša domaćeg vina",
+    "cijena": "3.50",
+    "slika": "slike/bv.jpg"
+  },
+  {
+    "naziv": "Crno vino",
+    "kategorija": "Pića",
+    "opis": "Čaša domaćeg vina",
+    "cijena": "3.50",
+    "slika": "slike/cv.jpg"
+  }
+]
